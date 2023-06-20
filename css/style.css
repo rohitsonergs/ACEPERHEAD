@@ -121,6 +121,14 @@ text-align: center;
 	right: -5px;
 }
 
+.slick-slide:hover {
+        background-color: #3182DE;
+}
+
+.slick-slide:hover p {
+    color: #fff;
+}
+
 .slick-slide {
 	background-color: #d9d9d9;
 	border-radius: 5px;
