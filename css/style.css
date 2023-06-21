@@ -552,6 +552,318 @@ width: calc(100% / 3);
 	text-align: right;
 }
 
+/*build mode page css start here*/
+.build-mode {
+        background-color: #3182DE;
+    width: 100%;
+    /*margin-left: -15px;
+    margin-top: -15px;*/
+    padding: 15px 0;
+    /*margin-bottom: -15px;*/
+    border-radius: 5px 5px 0 0;
+}
+.invite-grp {
+    display: inline-block;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.invite-bg {
+    margin-right: 5px;
+}
+.build-mode .dropdown-grp .dropdown button {
+    border-color: #fff;
+    color: #fff;
+}
+.build-mode .dropdown-grp .dropdown button span, .build-mode .bredcum p {
+    color: #fff;
+}
+
+.build-text {
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #212529;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.clear-text {
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #212529;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.build-tab ul.build-ul {
+    gap: 5px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.build-tab ul.build-ul li, .stat-inner-tab .will-have li{
+    width: calc(100% / 3 - 5px);
+    text-align: center;
+}
+
+body .stat-inner-tab .will-have li button {
+    border: none !important;
+}
+
+.build-tab ul.build-ul li button, .stat-inner-tab .will-have li button {
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #747474 !important;
+width: 100%;
+text-align: center;
+border-radius: 5px;
+border: 1px solid #3F4444 !important;
+}
+
+.build-tab ul.build-ul li button.active,
+.stat-inner-tab .will-have li button.active {
+background-color: #3F4444 !important;
+color: #fff !important;
+}
+
+.stat-tab-detail p {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #212529;
+}
+
+.stat-tab-detail .match-name, .match-select select {
+    border: 1px solid #212529;
+border-radius: 5px;
+padding: 10px;
+width: 100%;
+background-color: transparent;
+min-height: 56px;
+margin: 6px 0;
+}
+
+.stat-inner-tab .will-have {
+    background: #FFFFFF;
+border-radius: 5px;
+padding: 5px;
+}
+
+.invite-bg {
+    background-color: #F7F7F8;
+    padding: 15px 10px;
+}
+
+.build-bg {
+    background: #EAEAEA;
+    padding: 15px 10px;
+    border-radius: 0 0 5px 0;
+}
+
+.search-input  input {
+    border: 1px solid #CDCDCD;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 45px;
+    color: #cdcdcd;
+    margin-bottom: 15px;
+}
+
+
+.search-input  .search-img {
+top: 8px;
+left: 15px;
+}
+
+.user-detail ul li {
+    border: 1px solid #3F4444;
+border-radius: 5px;
+padding: 15px 10px;
+width: 49%;
+margin-bottom: 10px;
+}
+
+.graph-img {
+    margin-right: 6px;
+}
+
+.user-img {
+background: #212529;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.user-img:hover {
+    background: #3182DE;
+}
+
+.user-img:hover img {
+    display: none;
+}
+
+.user-img:hover img + img  {
+    display: block;
+}
+
+.user-img img + img {
+    display: none;
+}
+
+.match-detail button {
+    background: #3F4444;
+border: 0.5px solid #000000;
+border-radius: 1px;
+font-style: normal;
+font-weight: 500;
+font-size: 8px;
+line-height: 10px;
+padding: 2px 3px;
+color: #FFFFFF;
+margin-left: 10px;
+}
+
+.match-detail p:nth-child(1){
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #212529;
+
+}
+.match-detail p:nth-child(2){
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #CDCDCD;
+}
+
+.counter-place-btn {
+    margin: 12px 0; 
+}
+
+.counter-place-btn .counter-div {
+        border: 1px solid #212529;
+    border-radius: 5px;
+    line-height: 35px;
+}
+
+.counter-place-btn .counter-div a {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+
+.counter-place-btn .counter-div span {
+    display: inline-block;
+    width: calc(100% - 110px);
+    text-align: center;
+    border-left: 1px solid #212529;
+    border-right: 1px solid #212529;
+}
+
+.bet-btns-grp {
+    display: flex;
+    gap: 10px;
+}
+
+.bet-btns-grp button.total-odd-btn {
+    width: 120px;
+    font-style: normal;
+font-weight: 500;
+font-size: 10px;
+color: #212529;
+border: 1px solid #747474;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 49px;
+}
+
+.bet-btns-grp button.total-odd-btn span {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #212529;
+}
+
+.bet-btns-grp button.bet-slip-btn {
+    width: calc(100% - 120px);
+    border: none;
+    border-radius: 5px;
+    background: #19B68E;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    min-height: 49px;
+}
+
+.betslip-modal {
+    background-color: #fff;
+    width: 350px;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    height: 100%;
+}
+
+.betslip-modal .heading {
+    background: #4F5263;
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 15px;
+}
+.betslip-modal .heading p {
+    font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.betslip-modal .heading p span{
+    background: #EFCB41;
+border-radius: 2px;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: #212529;
+padding: 2px 5px;
+}
+
+.pl-0{
+    padding-left: 0
+}
+
+.pr-0{
+    padding-right: 0
+}
+
+/*build mode page css end here*/
+
 @media (min-width: 1400px) {
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1100px;
