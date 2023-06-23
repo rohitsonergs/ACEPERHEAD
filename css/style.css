@@ -74,6 +74,7 @@ color: #FFFFFF;
 
 .header-right p.betslip-number {
 	padding-right: 13px !important; 
+    cursor: pointer;
 }
 
 .header-right p .betslip-counter {
@@ -820,8 +821,10 @@ color: #212529;
     width: 350px;
     bottom: 0;
     position: fixed;
-    right: 0;
+    right: -350px;
     height: 100%;
+    padding: 0 10px;
+    transition: 0.5s;
 }
 
 .betslip-modal .heading {
@@ -830,6 +833,11 @@ color: #212529;
     align-items: center;
     justify-content: space-between;
     padding: 14px 15px;
+    width: calc(100% + 20px);
+    margin-left: -10px;
+}
+.betslip-modal .heading p.close-modal {
+    cursor: pointer;
 }
 .betslip-modal .heading p {
     font-weight: 700;
@@ -854,6 +862,200 @@ color: #212529;
 padding: 2px 5px;
 }
 
+.betslip-top {
+    margin-top: 15px;
+}
+
+.betslip-top p:nth-child(1) {
+    color: #212529;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+}
+
+.betslip-top p:nth-child(2) {
+color: #212529;
+font-size: 12px;
+font-weight: 500;
+cursor: pointer;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.betslip-top p:nth-child(2) img {
+    margin-left: 5px;
+}
+
+.league-overflow {
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.league-grp {
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    padding: 12px 0;
+    margin-top: 10px;
+}
+
+.league-grp article {
+    padding: 0 12px;
+}
+
+.league-grp .team-league .league{
+    color: #212529;
+font-size: 14px;
+font-weight: 600;
+}
+
+.league-grp .team-league .team{
+    color: #212529;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.point-section p {
+        color: #212529;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 12px;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    margin: 10px 0;
+}
+
+.return-section {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 12px;
+}
+
+.return-section .return-grp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    min-width: 130px;
+    margin-left: 20px;
+}
+
+.return-amt {
+    color: #212529;
+font-size: 15px;
+font-family: Inter;
+font-weight: 600;
+padding: 10px 0;
+}
+
+.return-text {
+    color: #212529;
+font-size: 12px;
+font-family: Inter;
+font-weight: 500;
+border-top: 1px solid #cdcdcd;
+line-height: 23px;
+}
+
+.return-section .min-amount {
+    color: #212529;
+font-size: 16px;
+font-weight: 600;
+}
+
+.parlay-grp {
+    border-radius: 5px;
+border: 1px solid #3182DE;
+margin-top: 10px;
+}
+
+.parlay-grp .parlay-heading {
+        background-color: #3182DE;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parlay-grp .parlay-heading p:nth-child(1) {
+    color: #FFF;
+font-size: 12px;
+font-weight: 600;
+}
+
+.parlay-grp .parlay-heading p:nth-child(2) {
+    border-radius: 5px;
+background: #FFF;
+color: #747474;
+font-size: 12px;
+font-weight: 600;
+padding: 4px 11px;
+}
+
+.parlay-place-grp {
+    padding: 10px 12px;
+}
+
+.parlay-amt {
+    border-radius: 5px;
+border: 1px solid #CDCDCD;
+width: 49%;
+}
+
+.parlay-btn {
+    width: 49%;
+}
+
+.parlay-btn button {
+    border-radius: 5px;
+    background: #19B68E;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.parlay-amt p:nth-child(1) {
+color: #212529;
+font-size: 16px;
+font-weight: 600;
+padding: 10px 0;
+padding-left: 35px;
+}
+
+.parlay-amt p:nth-child(2) {
+color: #212529;
+font-size: 12px;
+font-weight: 500;
+border-top: 1px solid #cdcdcd;
+padding: 5px 0;
+padding-left: 35px;
+}
+
+.return-section .min-amount span {
+    color: #3182DE;
+}
+
+.submit-bet button {
+        border-radius: 5px;
+    background: #19B68E;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 20px 0;
+    margin-top: 15px;
+    opacity: 0.5
+}
+
 .pl-0{
     padding-left: 0
 }
@@ -868,4 +1070,19 @@ padding: 2px 5px;
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1100px;
 }
+}
+
+/*scroll design*/
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+ 
+::-webkit-scrollbar-track {
+  background-color: #cdcdcd
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #3182DE;
+  /*outline: 1px solid slategrey;*/
 }

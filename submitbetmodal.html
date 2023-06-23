@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .check-icon{
+      height: 100px;
+      width: 100px;
+    }
+p{
+  margin: 0px !important;
+}
+
+.card{
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+    .modal-header{
+      justify-content: center !important;
+      border-bottom: none;
+    }
+
+    .modal-footer{
+            background-color: #fff;
+      margin-top: -15px;
+      border-radius: 0 0 15px 15px;
+      border: none;
+      width: 100%;
+      border-top:none !important
+    }
+
+    .heading-1{
+      font-size: 16PX;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .heading-2{
+      font-size: 16PX;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .modal-body{
+      padding-top: 0px !important;
+      background-color: #fff;
+    }
+    .view-legs{
+      font-size: 16PX;
+      font-weight: 400;
+      margin-left: 5px;
+      align-items: center;
+    }
+
+    .name{
+    font-size: 14px;
+    font-weight: 600;
+    
+    }
+
+    .team-name{
+      font-size: 12px;
+      font-weight: 500;
+      color: #747474;
+      padding-bottom: 10px;
+      border-bottom: 0.5px solid #eaeaea;
+    }
+    .name-2{
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+    
+    }
+
+    .team-name-2{
+      font-size: 12px;
+      font-weight: 500;
+      color: #747474; 
+    }
+.left-text{
+  font-size: 12px;
+font-weight: 400;
+}
+
+.right-text{
+  font-size: 12px;
+font-weight: 500;
+}
+.total-sum{
+  padding: 10px;
+  border-top: 0.55px solid #cdcdcd;
+}
+.card-2 :first-child{
+  border-top:none !important ;
+}
+
+.card-2{
+  padding: 0px !important;
+}
+.btn-secondary{
+width: 100%;
+background-color: #3f4444;
+border-radius: 5px;
+font-size: 14px;
+font-weight: 400;
+padding: 12px;
+}
+
+.accordion-item{
+border: none;
+}
+
+.accordion-body{
+padding: 0px;
+}
+
+button.accordion-button.collapsed img{
+
+transform: rotateZ(180deg);
+transition: ease-in-out 0.3s;
+}
+
+.accordion-button{
+display: inherit;
+}
+.accordion-button:focus{
+border: none;
+box-shadow: none;
+color: #000;
+background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    box-shadow: none;
+}
+.modal-content {
+  background-image: url("https://i.ibb.co/2Y2BC01/Subtract.png");
+  background-size: 100%;
+  background-color: transparent;
+  background-repeat: no-repeat; 
+  border: 0;
+}
+.accordion-button, .custom-accordion .accordion-item {
+  background-color: transparent !important;
+}
+
+  </style>
+</head>
+<body>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Submit Bet
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title fs-5" id="staticBackdropLabel">
+            <img class="check-icon" src="images/check.svg" alt="">
+          </div>
+        </div>
+        <div class="modal-body">
+         <p class="heading-1" >YOUR BET WAS SUCCESSFULLY SUBMITTED.</p>
+
+         <div class="accordion custom-accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         <p class="heading-2">3 LEG PARLAY <span class="view-legs" >View Legs <img src="images/up-arrow.svg" alt=""> </span></p>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body"> 
+         <div class="card">
+          <div class="card-body">
+              <div class=" first-line justify-content-between">
+            <div class="name">
+              <p>Total Points-Over 228.5</p>
+            </div>
+            <div class="team-name">
+  <p>Golder State Warriors @ Sacramento Kings</p>
+            </div>
+          
+            </div>
+            <div class=" first-line justify-content-between">
+              <div class="name-2">
+                <p>Total Points-Over 228.5</p>
+              </div>
+              <div class="team-name-2">
+    <p>Golder State Warriors @ Sacramento Kings</p>
+              </div>
+            
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+  </div>
+</div>
+        <div class="card">
+          <div class="card-body card-2 ">
+  
+            <div class="total-sum d-flex justify-content-between">
+               <p class="left-text" >Odds:</p>
+              <p class="right-text" >+1250</p>
+            </div>
+            <div class="total-sum d-flex justify-content-between">
+              <p class="left-text" >Wager:</p>
+              <p class="right-text" >$ 2.00</p>
+           </div>
+           <div class="total-sum d-flex justify-content-between">
+            <p class="left-text" >Return:</p>
+            <p class="right-text" >$ 25.00</p>
+         </div>
+          </div>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class=" btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+

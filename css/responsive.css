@@ -1,0 +1,46 @@
+@media (max-width: 991px) {
+	.user-detail ul li {
+		width: 100%;
+	}
+}
+@media (max-width: 768px){
+	.regular.slider {
+		width: 100%;
+		margin-left: 0; 
+	}
+	header {
+		flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+	}
+
+	header .heading {
+		    order: 0;
+    width: 100%;
+	}
+
+	header .header-center {
+		order: 2;
+    margin: 40px 0 10px 0;
+	}
+
+	.header-right {
+        order: 1;
+    position: absolute;
+    right: 0;
+	}
+
+	.invite-bg {
+		margin-right: 0;
+	}
+
+	.dropdown-grp .col-12 {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 450px){
+	.user-detail ul li  {
+		width: 100%;
+	}
+}
