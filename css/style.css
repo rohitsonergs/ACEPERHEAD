@@ -365,19 +365,20 @@ color: #212529;
 
 }
 
-.mybet-modal .modal-header{
+.mybet-modal .modal-header, #exampleModal-2 .modal-header{
 	background: #3F4444;
     border-radius: 5px 5px 0px 0px;
     padding: 15px 12px;
+    display: flex;
 }
 
-.mybet-modal .modal-header button{
+.mybet-modal .modal-header button, #exampleModal-2 .modal-header button{
 	opacity: 1;
 	background:  transparent;
 	height: auto;
 }
 
-.mybet-modal .modal-header h5 {
+.mybet-modal .modal-header h5, #exampleModal-2 .modal-header h5 {
 	font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -694,6 +695,7 @@ margin-bottom: 10px;
 
 .graph-img {
     margin-right: 6px;
+    cursor: pointer;
 }
 
 .user-img {
@@ -1072,6 +1074,308 @@ padding-left: 35px;
 }
 }
 
+.line-1{
+display: flex;
+justify-content:space-between ;
+}
+.heading-wrap{
+    padding: 10px;
+    background-color: #3f4444;
+    color: #fff;
+}
+.heading-wrap p{
+margin-bottom: 0px !important;
+}
+
+.player-name{
+ font-weight: 700;
+ font-size: 16px;
+}
+
+.subhead{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.team-name{
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-wrap p{
+margin-bottom: 8px;
+}
+
+.progress-radius{
+    border-radius: 10px;
+    height: 16px;
+    margin-bottom: 12px;
+        border: 1px solid #000;
+    background-color: transparent;
+}
+
+.tab-btn{
+    color: #747474;
+    padding: 8px 5px;
+    margin-right: 15px;
+    border: 1px solid #3f4444 !important;
+    border-radius: 5px !important;
+
+}
+.tab-btn:hover{
+    border: none;
+    color: #747474;
+
+}
+
+.tabs-nav .tab-btn.active{
+    color: #fff!important; 
+    background-color: #3182de  !important;
+        border: 1px solid transparent !important;
+}
+
+.tabs-nav{
+    border-bottom: none;
+    align-items: center;
+}
+.tabs-nav p{
+    margin-bottom: 0px;
+}
+
+.heading-2{
+      font-size: 14PX;
+      font-weight: 700;
+     
+    }
+
+    .tabs-nav img{
+     margin-left: 10px;
+    }
+
+    .accordion-item{
+border: none;
+}
+
+.accordion-body{
+padding: 0px;
+}
+
+button.accordion-button.collapsed img{
+
+transform: rotateZ(180deg);
+transition: ease-in-out 0.3s;
+}
+
+.accordion-button{
+display: inherit;
+}
+.accordion-button:focus{
+border: none;
+box-shadow: none;
+color: #000;
+background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.heading-wrap .btn-close {
+    background: inherit;
+    opacity: 1;
+}
+
+/*confirm modal css start here*/
+    .check-icon{
+      height: 100px;
+      width: 100px;
+    }
+p{
+  margin: 0px !important;
+}
+
+.card{
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+    .modal-header{
+      border-bottom: none;
+      display: inline;
+    }
+
+    .modal-footer{
+      border-top:none !important;
+      justify-content: center;
+      flex-wrap: inherit;
+      background-color: #fff;
+      margin-top: -15px;
+      border-radius: 0 0 15px 15px;
+      border: none;
+      width: 100%;
+    }
+
+    .heading-1{
+      font-size: 16PX;
+      font-weight: 600;
+      text-align: left;
+      padding-bottom:5px ;
+    }
+
+    .heading-2{
+      font-size: 16PX;
+      font-weight: 600;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+    }
+
+    .text-1{
+      font-size:  12PX;
+      font-weight: 500;
+      text-align: left;
+    }
+
+    #staticBackdrop .modal-body{
+      padding-top: 0px !important;
+    }
+    .view-legs{
+      font-size: 16PX;
+      font-weight: 400;
+      margin-left: 5px;
+      align-items: center;
+    }
+
+    .name{
+    font-size: 14px;
+    font-weight: 600;
+    
+    }
+
+    .team-name{
+      font-size: 12px;
+      font-weight: 500;
+      color: #747474;
+      padding-bottom: 10px;
+      border-bottom: 0.5px solid #eaeaea;
+    }
+    .name-2{
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+    
+    }
+
+    .team-name-2{
+      font-size: 12px;
+      font-weight: 500;
+      color: #747474; 
+    }
+.left-text{
+  font-size: 12px;
+font-weight: 400;
+}
+
+.right-text{
+  font-size: 12px;
+font-weight: 500;
+}
+.total-sum{
+  padding: 10px;
+  border-top: 0.55px solid #cdcdcd;
+}
+.card-2 :first-child{
+  border-top:none !important ;
+}
+
+.card-2{
+  padding: 0px !important;
+}
+.cancelbtn{
+background-color:transparent;
+color: #000;
+border-radius: 5px;
+border: 1px solid #747474;
+font-size: 14px;
+font-weight: 400;
+padding: 12px;
+width: 50%;
+}
+.cancelbtn:hover{
+background-color:transparent;
+color: #000;
+}
+
+.confirmbtn{
+background-color:#19B68E;
+border: none;
+border-radius: 5px;
+font-size: 14px;
+font-weight: 400;
+padding: 12px;
+width: 50%;
+color: #fff;
+}
+
+.confirmbtn:hover{
+  background-color: #19B68E;
+  color: #fff;
+}
+
+.accordion-item{
+border: none;
+}
+
+.accordion-body{
+padding: 0px;
+}
+
+button.accordion-button.collapsed img{
+
+transform: rotateZ(180deg);
+transition: ease-in-out 0.3s;
+}
+
+.accordion-button{
+display: inherit;
+justify-content: center;
+padding: 0px !important;
+}
+.accordion-button:focus{
+border: none;
+box-shadow: none;
+color: #000;
+background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    box-shadow: none;
+}
+.circle-img {
+  position: absolute;
+  border: 2px solid;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+}
+#staticBackdrop .modal-content {
+  background-image: url("https://i.ibb.co/2Y2BC01/Subtract.png");
+  background-size: 100%;
+  background-color: transparent;
+  background-repeat: no-repeat; 
+  border: 0;
+}
+
+.accordion-button, .custom-accordion .accordion-item, .card {
+  background-color: transparent !important;
+}
+
 /*scroll design*/
 
 ::-webkit-scrollbar {
@@ -1085,4 +1389,258 @@ padding-left: 35px;
 ::-webkit-scrollbar-thumb {
   background-color: #3182DE;
   /*outline: 1px solid slategrey;*/
+}
+
+ .check-icon{
+      height: 100px;
+      width: 100px;
+    }
+p{
+  margin: 0px !important;
+}
+
+.card{
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+    .modal-header{
+      justify-content: center !important;
+      border-bottom: none;
+    }
+
+    #staticBackdrop-1 .modal-footer{
+            background-color: #fff;
+      margin-top: -15px;
+      border-radius: 0 0 15px 15px;
+      border: none;
+      width: 100%;
+      border-top:none !important
+    }
+
+    .heading-1{
+      font-size: 16PX;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .heading-2{
+      font-size: 16PX;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    #staticBackdrop-1 .modal-body{
+      padding-top: 0px !important;
+      background-color: #fff;
+    }
+    .view-legs{
+      font-size: 16PX;
+      font-weight: 400;
+      margin-left: 5px;
+      align-items: center;
+    }
+
+    .name{
+    font-size: 14px;
+    font-weight: 600;
+    
+    }
+
+    .team-name{
+      font-size: 12px;
+      font-weight: 500;
+      color: #747474;
+      padding-bottom: 10px;
+      border-bottom: 0.5px solid #eaeaea;
+    }
+    .name-2{
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+    
+    }
+
+    .team-name-2{
+      font-size: 12px;
+      font-weight: 500;
+      color: #747474; 
+    }
+.left-text{
+  font-size: 12px;
+font-weight: 400;
+}
+
+.right-text{
+  font-size: 12px;
+font-weight: 500;
+}
+.total-sum{
+  padding: 10px;
+  border-top: 0.55px solid #cdcdcd;
+}
+.card-2 :first-child{
+  border-top:none !important ;
+}
+
+.card-2{
+  padding: 0px !important;
+}
+.btn-secondary{
+width: 100%;
+background-color: #747474;
+border-radius: 5px;
+font-size: 14px;
+font-weight: 400;
+padding: 12px;
+}
+
+.accordion-item{
+border: none;
+}
+
+.accordion-body{
+padding: 0px;
+}
+
+button.accordion-button.collapsed img{
+
+transform: rotateZ(180deg);
+transition: ease-in-out 0.3s;
+}
+
+.accordion-button{
+display: inherit;
+}
+.accordion-button:focus{
+border: none;
+box-shadow: none;
+color: #000;
+background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    box-shadow: none;
+}
+#staticBackdrop-1 .modal-content {
+  background-image: url("https://i.ibb.co/2Y2BC01/Subtract.png");
+  background-size: 100%;
+  background-color: transparent;
+  background-repeat: no-repeat; 
+  border: 0;
+}
+.accordion-button, .custom-accordion .accordion-item {
+  background-color: transparent !important;
+}
+
+
+/*faq modal css start here*/
+
+
+    .faq-wrap{  
+      /* width: 33.33%; */
+
+     
+      background-color: #f6f6f7;
+    }
+
+    #exampleModal-2 .modal-body{
+        padding: 0px !important;
+    }
+
+    .header{
+        background-color: #3f4444;
+        height: 43px;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 12px 0px 12px 15px;
+        border-radius: 5px 5px 0px 0px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header p{
+      margin-bottom: 0px !important;
+    }
+
+  .close-btn{
+  width: 15px;
+    height: 15px;
+    margin: 0px 15px 0px 0px;
+  }
+
+    .content-wrap{
+        background-color: #d9d9d9;
+        margin: 15px 10px ;
+        border-radius: 5px 5px 0px 0px ;
+    }
+    .card{
+        margin: 10px;
+       
+    }
+    #exampleModal-2 .card-body{
+        padding: 15px !important;
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        justify-content: space-between;
+        border-radius: .25rem;
+        background-color: #fff;
+    }
+
+    .faq-heading p {
+        padding: 10px;
+        color: #212529;
+font-size: 14px;
+font-weight: 600;
+    }
+
+
+    #exampleModal-2 .accordion-item{
+border: none;
+background-color: #d9d9d9;
+}
+
+#exampleModal-2 .accordion-body{
+padding: 0px;
+background-color: #d9d9d9;
+}
+
+#exampleModal-2 .accordion-body .card{
+margin: 0px 10px;
+}
+
+#exampleModal-2 button.accordion-button.collapsed img{
+
+transform: rotateZ(0deg);
+transition: ease-in-out 0.3s;
+}
+
+#exampleModal-2 .accordion-button{
+display: inherit;
+padding: 0px !important;
+background-color: #d9d9d9;
+}
+
+#exampleModal-2 .accordion-button  .card {
+  margin: 5px 10px;
+  border: none;
+}
+
+
+
+#exampleModal-2 .accordion-button:focus{
+border: none;
+box-shadow: none;
+color: #000;
+background-color: #d9d9d9;
+}
+
+#exampleModal-2 .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color:#d9d9d9;
+    box-shadow: none;
 }
