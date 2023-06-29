@@ -585,7 +585,7 @@
                 </div>
 
                 <div class="build-tab">
-                  <ul class="build-ul border-0 nav nav-tabs mx-3" id="myTab" role="tablist">
+                  <ul class="build-ul border-0 nav nav-tabs mx-3 mx-md-0" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                       <button class="border-0 nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#build-tab-1" type="button" role="tab" aria-controls="home" aria-selected="true">Stat</button>
                     </li>
@@ -681,7 +681,99 @@
                       </div>  
                     </div>
 
-                    <div class="tab-pane fade" id="build-tab-2" role="tabpanel" aria-labelledby="profile-tab">build-tab-2</div>
+                    <div class="tab-pane fade" id="build-tab-2" role="tabpanel" aria-labelledby="profile-tab">
+                      <div class="stat-tab-detail">
+                        <div class="match-name">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                              <p>
+                                Marcus Smart
+                              </p>
+                              <p>
+                                PHI @ BOS
+                              </p>
+                            </div>
+
+                            <div>
+                              <img src="images/remove-btn.svg" alt="remove-btn">
+                            </div>
+                          </div>
+
+                          <div class="add-player">
+                            <span class="bg-color">
+                              <img src="images/a-user.svg">
+                            </span>
+                            <p>
+                              Add Player
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="match-select">
+                          <select>
+                            <option>
+                              Select Statistic
+                            </option>
+                            <option>
+                              Select Statistic
+                            </option>
+                            <option>
+                              Select Statistic
+                            </option>
+                          </select>
+                        </div>
+
+                        <div class="stat-inner-tab">
+                          <p>
+                            Will have
+                          </p>
+                          <ul class=" border-0 will-have nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="border-0 nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#least-1" type="button" role="tab" aria-controls="home" aria-selected="true">At least</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link border-0" id="profile-tab" data-bs-toggle="tab" data-bs-target="#over-1" type="button" role="tab" aria-controls="profile" aria-selected="false">Over</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link border-0" id="contact-tab" data-bs-toggle="tab" data-bs-target="#under-1" type="button" role="tab" aria-controls="contact" aria-selected="false">Under</button>
+                            </li>
+                          </ul>
+                          <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="least-1" role="tabpanel" aria-labelledby="home-tab">
+                              <div class="counter-place-btn">
+                                <div class="counter-div">            
+                                  <a href="#">
+                                    <img src="images/icon-5.svg" />
+                                  </a>
+                                  <span>
+                                    0
+                                  </span>
+                                  <a href="#">
+                                    <img src="images/white-right-arrow.svg" />
+                                  </a>                                  
+                                </div>
+                              </div>
+
+                              <div class="bet-btns-grp">
+                                <button class="total-odd-btn">
+                                  Total odds
+                                  <span>
+                                    +20
+                                  </span>
+                                </button>
+
+                                <button class="bet-slip-btn">
+                                  Add to bet slip
+                                </button>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade" id="over-1" role="tabpanel" aria-labelledby="profile-tab">Over</div>
+                            <div class="tab-pane fade" id="under-1" role="tabpanel" aria-labelledby="contact-tab">Under</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                     <div class="tab-pane fade" id="build-tab-3" role="tabpanel" aria-labelledby="contact-tab">build-tab-3</div>
                   </div>
                 </div>
@@ -2206,8 +2298,8 @@
       
         $(".regular").slick({
           infinite: true,
-          slidesToShow: 20,
-          slidesToScroll: 1,
+          slidesToShow: 15,
+          slidesToScroll: 8,
           dots: false,
           prevArrow:"<button type='button' class='slick-prev pull-left'> < </button>",
             nextArrow:"<button type='button' class='slick-next pull-right'> > </button>",
@@ -2215,15 +2307,15 @@
     {
       breakpoint: 991,
       settings: {
-        slidesToShow: 10,
-        slidesToScroll: 1,
+        slidesToShow: 8,
+        slidesToScroll: 6,
       },
     },
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 6,
-        slidesToScroll: 1,
+        slidesToShow: 4,
+        slidesToScroll: 3,
       },
     },
   ],

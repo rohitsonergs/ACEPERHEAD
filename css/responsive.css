@@ -2,6 +2,18 @@
 	.user-detail ul li {
 		width: 100%;
 	}
+	.regular.slider {
+		width: 100%;
+		margin-left: 0; 
+	}
+	.header-center .mx-5 {
+		    margin-right: 1rem!important;
+    margin-left: 1rem!important;
+	}
+
+	.header-center .gap-5 {
+		    gap: 2rem !important;
+	}
 }
 @media (max-width: 768px){
 	.regular.slider {
@@ -17,6 +29,7 @@
 	header .heading {
 		    order: 0;
     width: 100%;
+    padding-top: 10px;
 	}
 
 	header .header-center {
