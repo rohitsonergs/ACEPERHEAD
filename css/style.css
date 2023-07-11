@@ -1680,3 +1680,78 @@ background-color: #d9d9d9;
     background-color:#d9d9d9;
     box-shadow: none;
 }
+
+.h2h-section {
+    background-color: #3F4444 !important;
+    width: 100%;
+    padding: 2px;
+}
+
+.add-player-list {
+        align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #f7f7f8;
+    display: flex;
+    min-height: 44px;
+    padding: 5px 6px; 
+    border-radius: 5px;
+    gap: 8px;
+
+}
+.build-form {
+    color: #676b7e;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 6px 12px;
+    background: #fff;
+
+}
+.build-form span {
+        color: #121421;
+    font-weight: 600;
+}
+
+.select-option{
+    /*background: #fb00171f;*/
+    display: inline-block;
+    width: 100%;
+}
+.select-option select {
+    width: 100%;
+     /*background: #fb00171f;*/
+     border: none;
+     color: #121421;
+    font-size: 14px;
+    line-height: 17px;
+    vertical-align: top;
+    padding: 0px 6px;
+}
+.than {
+        color: #676b7e;
+    font-size: 12px;
+    line-height: 15px;
+        padding: 0px 6px 10px 10px;
+        display: inherit;
+}
+
+.h2h-bg-color{
+    background-color:     #fff;
+        display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+.reload {
+        position: absolute;
+    left: 10px;
+    bottom: -10px;
+}
+.reload span, .reload span a {
+border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: #3F4444 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
