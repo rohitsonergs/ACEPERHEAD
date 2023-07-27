@@ -1755,3 +1755,16 @@ border-radius: 50%;
     justify-content: center;
     align-items: center;
 }
+
+.wager-limit {
+    padding: 0 12px 10px 12px;
+}
+
+.wager-limit p {
+    background-color: #3F4444 !important;
+    color: #fff !important;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
